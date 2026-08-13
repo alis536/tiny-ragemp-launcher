@@ -202,9 +202,9 @@ static void DrawTitleBar()
     dl->AddRectFilled(p0, p1, IM_COL32(15, 15, 17, 255));
 
     if (g_fontTitle) ImGui::PushFont(g_fontTitle);
-    ImVec2 textSize = ImGui::CalcTextSize("RAGE Launcher - github.com/winnerchester");
+    ImVec2 textSize = ImGui::CalcTextSize("RAGE Launcher - github.com/alis536");
     dl->AddText(ImVec2(14, (TITLE_BAR_H - textSize.y) * 0.5f),
-                IM_COL32(230, 230, 235, 255), "RAGE Launcher - github.com/winnerchester");
+                IM_COL32(230, 230, 235, 255), "RAGE Launcher - github.com/alis536");
     if (g_fontTitle) ImGui::PopFont();
 
     const float btnSize = (float)TITLE_BAR_H;
@@ -428,7 +428,7 @@ int WINAPI wWinMain(HINSTANCE hInst, HINSTANCE, LPWSTR, int)
     int y  = (sh - WINDOW_H) / 2;
 
     g_hwnd = CreateWindowExW(
-        0, wc.lpszClassName, L"RAGE Launcher - github.com/winnerchester",
+        0, wc.lpszClassName, L"RAGE Launcher - github.com/alis536",
         WS_POPUP,                            
         x, y, WINDOW_W, WINDOW_H,
         nullptr, nullptr, hInst, nullptr);

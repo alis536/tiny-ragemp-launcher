@@ -46,8 +46,8 @@
     "override": true,
     "servers": [
       { "name": "My Server #1", "ip": "play.heyarda.dev", "port": 22005, "players": 250, "maxplayers": 1000, "lang": "tr", "gamemode": "Roleplay", "url": "https://heyarda.dev" },
-      { "name": "My Server #2 [1.1]", "ip": "play.heyarda.dev", "port": 22005, "players": 80,  "maxplayers": 500,  "lang": "de", "gamemode": "Freeroam", "url": "https://github.com/winnerchester" },
-      { "name": "Test Server",        "ip": "play.heyarda.dev",   "port": 22005, "players": 80,  "maxplayers": 500,  "lang": "tr", "gamemode": "Freeroam", "url": "https://github.com/winnerchester" }
+      { "name": "My Server #2 [1.1]", "ip": "play.heyarda.dev", "port": 22005, "players": 80,  "maxplayers": 500,  "lang": "de", "gamemode": "Freeroam", "url": "https://github.com/alis536" },
+      { "name": "Test Server",        "ip": "play.heyarda.dev",   "port": 22005, "players": 80,  "maxplayers": 500,  "lang": "tr", "gamemode": "Freeroam", "url": "https://github.com/alis536" }
     ]
   }
 }
